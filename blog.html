@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<title>CyberStorm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+        .float{right:25px; position:fixed; width:60px; height:60px; bottom:40px; background-color:#25d366; color:#FFF;border-radius:50px; text-align:center;font-size:30px; z-index:100;}
+        .my-float{margin-top:16px;}
+    
+        #msg1 { background: #fff;color: #000;position: fixed;width: 100px;bottom: 55px;right: 90px;font-size: 12px;line-height: 13px;padding: 3px; border-radius: 10px; border:1px solid #e2e2e2; box-shadow: 2px 2px 3px #999;z-index:100;  }
+</style>  
+    
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "OCR A Std", monospace; font-size: 15px;}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background:gray;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-big w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!--<img src="/imagens/untitled-1.jpg" style="width:100%">-->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="glyphicon glyphicon-home"></i>
+    <p>Home</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="glyphicon glyphicon-user"></i>
+    <p>About</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="glyphicon glyphicon-folder-open"></i>
+    <p>Artigos</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="glyphicon glyphicon-envelope"></i>
+    <p>Contatos</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-white w3-opacity w3-hover-opacity w3-center w3-big">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Home</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">About</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:20% !important">Artigos</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">Contatos</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'M </span>CyberStorm TI</h1>
+    <p>Artigos, serviços, Softwares etc</p>
+    <!--<img src="/imagens/banner-consultoria-de-ti.jpg" alt="" class="w3-image" width="992" height="360"> -->
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Eu Sou CSTI... </h2>
+    <hr style="width:250px" class="w3-opacity">
+    <p>Responsável por agregar novas ideias e soluções em uma pessoa ou empresa. Por meio de um conhecimento avançado em tecnologia, o profissional para propor novas soluções, atualizações e adequações nos serviços do cliente ou companhia – assim eles se mantém alinhados às melhores práticas do mercado.
+
+    <p>Para melhor ilustrar o funcionamento da empresa e de nossa consultoria de TI, vamos trazer, abaixo, um simples passo a passo, desde o momento da identificação da necessidade até a conclusão do projeto.</p>
+
+    <p>Em resumo, o funcionamento se dá da seguinte forma:</p>
+
+   <p>1 - A empresa identifica a necessidade ou o problema.
+    Com isso, busca no mercado por profissionais e empresas especializadas neste conhecimento (ou uma full, caso o objetivo seja terceirizar todos os serviços).</p>
+   <p>2 - A empresa deve analisar e considerar indicadores como histórico de clientes e cases, o atendimento inicial, da disponibilidade do consultor e, claro, o orçamento. Após isso, a empresa começa a negociar o modelo de trabalho e as questões contratuais.</p>
+   <p>3 - É nesta fase, por exemplo, que se definem questões como periodicidade das visitas ou reuniões, consultores responsáveis pela empresa e SLA, um item fundamental para assegurar a qualidade das entregas e a satisfação de ambas as partes.</p>
+   <p>4 - Fechados os acordos de contrato, o(s) consultor(es) começa(m) o trabalho de imersão e estudo do cliente.</p>
+   <p>5 - Para isso, é comum que o consultor fique alocado na sede do cliente por um período. O objetivo é participar das atividades e serviços de forma mais próxima.</p>
+   <p>6 - Entendendo o cenário atual, e detalhando as reais necessidades e requisitos, o consultor pode propor alguma solução para o problema inicial, pelo qual ele foi contratado.</p>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Meus serviços</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basico</li>
+          <li class="w3-padding-16">Suporte Técnico</li>
+          <li class="w3-padding-16">Web Designer</li>
+          <li class="w3-padding-16">Infraestrutura de redes</li>
+          <li class="w3-padding-16">Segurança da Informação Basico</li>
+          <li class="w3-padding-16">
+            <h2>R$ 120</h2>
+            <span class="w3-opacity">Por Mês</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Contratar</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Suporte Técnico</li>
+          <li class="w3-padding-16">Criação de Sites</li>
+          <li class="w3-padding-16">Administração de Redes</li>
+          <li class="w3-padding-16">Segurança da Informação Pro</li>
+          <li class="w3-padding-16">
+            <h2>R$ 240</h2>
+            <span class="w3-opacity">Por Mês</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Contratar</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div> 
+    
+    <!-- Testimonials -->
+      
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+ 
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contato</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Brasil, BR</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telefone: +55 (99) 99999 - 9999</p>
+        <p><a class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"><a href="https://mail.google.com/mail/u/0/#inbox">Email : rodrigo.lima.devops@gmail.com</a></a></p>
+    </div><br>
+   <!-- <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form> -->
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/rodrigo.devops" target="_blank" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="#" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
+    <a href="#" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
+    <a href="#" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
+    <a href="#" target="_blank" class="fa fa-twitter w3-hover-opacity"></a>
+    <a href="https://www.linkedin.com/in/rhodric" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a>
+    <p href="#" target="_blank" class="w3-medium">Powered by <a href="#" target="_blank" class="w3-hover-text-green">Rodrigo lima</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<a href="https://api.whatsapp.com/send?phone=5548912345678&text=Olá!%20Encontrei%20seu%20site%20na%20Internet%20e%20preciso%20de%20seus%20serviços." class="float" target="_blank" onclick="goog_report_conversion('https://api.whatsapp.com/send?phone=554899999999&text=Olá!%20Entrei%20em%20seu%20site%20e%20preciso%20de%20seus%20serviços.')">
+<img src="imagens/WP.png" alt="" width="60px">
+</a>    
+<div id="msg1" style="visibility: hidden">Fale conosco via WhatsApp</div>
+    
+<script type="text/javascript">
+
+// ativa o box de mensagem
+function showIt2() {
+  document.getElementById("msg1").style.visibility = "visible";
+}
+setTimeout("showIt2()", 5000); // Depois 5 segs
+
+// desativa o box de mensagem
+function hiddenIt() {
+  document.getElementById("msg1").style.visibility = "hidden";
+}
+setTimeout("hiddenIt()", 15000); // Depois 15 segs
+
+// ativa novamente o box de mensagem
+function showIt3() {
+  document.getElementById("msg1").style.visibility = "visible";
+}
+setTimeout("showIt3()", 35000); // Depois 35 segs
+
+// Clique para esconder o box de mensagem
+msg1.onclick = function() {
+    document.getElementById('msg1').style.visibility = "hidden"; 
+};
+</script>    
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
