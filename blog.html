@@ -27,6 +27,27 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "OCR A Std", monospace; font-size: 15px;}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
+    <script>
+    
+    function disableselect(e){   
+return false   
+}   
+
+function reEnable(){   
+return true   
+}   
+
+//if IE4+   
+document.onselectstart=new Function ("return false")   
+document.oncontextmenu=new Function ("return false")   
+//if NS6   
+if (window.sidebar){   
+alert("Desculpe!!! Não há permissão para essa ação");    
+document.onmousedown=disableselect   
+document.onclick=reEnable   
+}   
+        
+    </script>    
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
