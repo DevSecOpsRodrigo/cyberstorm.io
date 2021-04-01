@@ -41,11 +41,11 @@ return true
 document.onselectstart=new Function ("return false")   
 document.oncontextmenu=new Function ("return false")   
 //if NS6   
-if (window.sidebar){   
-alert("Desculpe!!! Não há permissão para essa ação");    
+if (window.sidebar){       
 document.onmousedown=disableselect   
 document.onclick=reEnable   
 }   
+alert("Desculpe!!! Não há permissão para essa ação");
         
     </script>    
 <body class="w3-black">
