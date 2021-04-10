@@ -129,12 +129,11 @@
           color: black;
           margin-top: 0; /* Remove margin as there are no elements above it */
       }
-  
-  @media only screen and (min-width: 53rem) { /* Base-spacing-unit * 30 */
+  @media only screen and (min-width: 60rem) { /* Base-spacing-unit * 30 */
   
       .card {
           flex-direction: row; /* Align items along the horizontal axis */
-          min-height: 60vh;
+          min-height: 0vh;
       }
   
           .card__image-container {
@@ -144,7 +143,7 @@
   
           .card__contents {
               flex: 1 1 55%; /* Grow, Shrink, 55% width */
-              padding: 3rem; /* Increase padding now we have more space to play with */
+              padding: 6rem; /* Increase padding now we have more space to play with */
           }
   
   }
