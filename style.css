@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
- @import url(tiny.css) (min-width:300px);
- @import url(small.css) (min-width:600px);
- @import url(big.css) (min-width:900px);
-
  
 
 ul {
